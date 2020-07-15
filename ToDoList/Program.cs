@@ -56,7 +56,7 @@ namespace ToDoList
     {
       // Console.WriteLine("View List");
       // string list = Console.ReadLine();
-      List<Item> result = .GetAll();
+      List<Item> result = Item.GetAll();
       Console.WriteLine("Your list items: " + result);
       Console.WriteLine("Would you like to add more items to this list? (y or n)");
       string responseList = Console.ReadLine();
