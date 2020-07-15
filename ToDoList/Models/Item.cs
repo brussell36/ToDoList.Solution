@@ -4,7 +4,6 @@ namespace ToDoList.Models
 {
   public class Item
   {
- 
     public string Description { get; set; }
     // this is an auto-implemented property
     private static List<Item> _instances = new List<Item> {};
